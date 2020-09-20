@@ -1,0 +1,292 @@
+///python c:\Python38\Lib\site-packages\nml\main.py -c --grf czRoadsFix.grf czRoadsFix.nml
+/// more info https://newgrf-specs.tt-wiki.net/wiki/NML:Language_files
+
+grf {
+	grfid: "MA\00\03";
+	name: string(STR_GRF_NAME);
+	desc: string(STR_GRF_DESC);
+	url: string(STR_GRF_WEBSITE);
+	version: 1;
+	min_compatible_version: 1;
+}
+
+engine_override("MI\01\01");
+
+item (FEAT_ROADTYPES, RT01, 0){
+	property{
+		label: 							"RT01";
+		//introduction_date:				date(1800,01,01);
+		name: 							string(STR_RT01);
+		toolbar_caption:				string(STR_RT01);
+		menu_text:						string(STR_RT01);
+		build_window_caption:			string(STR_RT01);
+		autoreplace_text:				string(STR_RT01);
+		new_engine_text:				string(STR_RT01);
+		//sort_order: 			   0;
+		//construction_cost:         7;
+		//maintenance_cost:          3;		
+		//speed_limit:                40 km/h;
+	}
+}
+
+
+item (FEAT_ROADTYPES, ROAD, 1){
+	property{
+		label: 							"ROAD";
+		//introduction_date:				date(1800,01,01);
+		name: 							string(STR_ROAD);
+		toolbar_caption:				string(STR_ROAD);
+		menu_text:						string(STR_ROAD);
+		build_window_caption:			string(STR_ROAD);
+		autoreplace_text:				string(STR_ROAD);
+		new_engine_text:				string(STR_ROAD);		
+		//sort_order: 			    1;
+		//construction_cost:          9;
+		//maintenance_cost:           6;		
+		//speed_limit:                50 km/h;
+	}
+}
+
+item (FEAT_ROADTYPES, ELRD, 2){
+	property{
+		label: 							"ELRD";
+		//introduction_date:				date(1936,01,01);
+		name: 							string(STR_ELRD);
+		toolbar_caption:				string(STR_ELRD);
+		menu_text:						string(STR_ELRD);
+		build_window_caption:			string(STR_ELRD);
+		autoreplace_text:				string(STR_ELRD);
+		new_engine_text:				string(STR_ELRD);
+		powered_roadtype_list: 			["RT09","RT13"];
+		//sort_order:                 2;
+		//construction_cost:         24;
+		//maintenance_cost:          11;		
+		//speed_limit:                51 km/h;
+	}
+}
+
+item (FEAT_ROADTYPES, RT04, 3){
+	property{
+		label: 							"RT04";
+		//introduction_date:				date(1800,01,01);
+		name: 							string(STR_RT04);
+		toolbar_caption:				string(STR_RT04);
+		menu_text:						string(STR_RT04);
+		build_window_caption:			string(STR_RT04);
+		autoreplace_text:				string(STR_RT04);
+		new_engine_text:				string(STR_RT04);		
+		//sort_order: 			   3;
+		//construction_cost:         8;
+		//maintenance_cost:          5;
+		//speed_limit:                51 km/h;
+	}
+}
+
+item (FEAT_ROADTYPES, RT05, 4){
+	property{
+		label: 							"RT05";
+		//introduction_date:				date(1960,01,01);
+		name: 							string(STR_RT05);
+		toolbar_caption:				string(STR_RT05);
+		menu_text:						string(STR_RT05);
+		build_window_caption:			string(STR_RT05);
+		autoreplace_text:				string(STR_RT05);
+		new_engine_text:				string(STR_RT05);
+		//sort_order: 			   4;
+		//construction_cost:         8;
+		//maintenance_cost:          5;
+		//speed_limit:                51 km/h;
+	}
+}
+
+item (FEAT_ROADTYPES, RT06, 5){
+	property{
+		label: 							"RT06";
+		//introduction_date:				date(1800,01,01);
+		name: 							string(STR_RT06);
+		toolbar_caption:				string(STR_RT06);
+		menu_text:						string(STR_RT06);
+		build_window_caption:			string(STR_RT06);
+		autoreplace_text:				string(STR_RT06);
+		new_engine_text:				string(STR_RT06);	
+		//sort_order: 			   5;
+		//construction_cost:         11;
+		//maintenance_cost:          10;		
+		//speed_limit:                81 km/h;
+	}
+}
+
+item (FEAT_ROADTYPES, RT07, 6){
+	property{
+		label: 							"RT07";
+		//introduction_date:				date(1965,01,01);
+		name: 							string(STR_RT07);
+		toolbar_caption:				string(STR_RT07);
+		menu_text:						string(STR_RT07);
+		build_window_caption:			string(STR_RT07);
+		autoreplace_text:				string(STR_RT07);
+		new_engine_text:				string(STR_RT07);		
+		//sort_order: 			   6;
+		//construction_cost:         8;
+		//maintenance_cost:          5;		
+		//speed_limit:                56 km/h;
+	}
+}
+
+
+item (FEAT_ROADTYPES, RT08, 7){
+	property{
+		label: 							"RT08";
+		//introduction_date:				date(1965,01,01);
+		name: 							string(STR_RT08);
+		toolbar_caption:				string(STR_RT08);
+		menu_text:						string(STR_RT08);
+		build_window_caption:			string(STR_RT08);
+		autoreplace_text:				string(STR_RT08);
+		new_engine_text:				string(STR_RT08);		
+		//sort_order: 			   7;
+		//construction_cost:         8;
+		//maintenance_cost:          5;
+
+		speed_limit:                56 km/h;
+	}
+}
+
+item (FEAT_ROADTYPES, RT09, 8){
+	property{
+		label: 							"RT09";
+		//introduction_date:				date(1965,01,01);
+		name: 							string(STR_RT09);
+		toolbar_caption:				string(STR_RT09);
+		menu_text:						string(STR_RT09);
+		build_window_caption:			string(STR_RT09);
+		autoreplace_text:				string(STR_RT09);
+		new_engine_text:				string(STR_RT09);		
+		//sort_order: 			   8;
+		//construction_cost:         23;
+		//maintenance_cost:          10;
+		//roadtype_flags:	            bitmask(ROADTYPE_FLAG_CATENARY);
+		//speed_limit:                56 km/h;
+	}
+}
+
+item (FEAT_ROADTYPES, RT10, 9){
+	property{
+		label: 							"RT10";
+		//introduction_date:				date(1965,01,01);
+		name: 							string(STR_RT10);
+		toolbar_caption:				string(STR_RT10);
+		menu_text:						string(STR_RT10);
+		build_window_caption:			string(STR_RT10);
+		autoreplace_text:				string(STR_RT10);
+		new_engine_text:				string(STR_RT10);		
+		//sort_order: 			   9;
+		//construction_cost:         13;
+		//maintenance_cost:          13;
+		//speed_limit:                91 km/h;
+	}
+}
+
+item (FEAT_ROADTYPES, RT11, 10){
+	property{
+		label: 							"RT11";
+		//introduction_date:				date(1970,01,01);
+		name: 							string(STR_RT11);
+		toolbar_caption:				string(STR_RT11);
+		menu_text:						string(STR_RT11);
+		build_window_caption:			string(STR_RT11);
+		autoreplace_text:				string(STR_RT11);
+		new_engine_text:				string(STR_RT11);		
+		//sort_order: 			   10;
+		//construction_cost:         9;
+		//maintenance_cost:          6;		
+		//speed_limit:                61 km/h;
+	}
+}
+
+
+// prvni_mesto_spojovaci
+
+item (FEAT_ROADTYPES, RT12, 11){
+	property{
+		label: 							"RT12";
+		//introduction_date:				date(1970,01,01);
+		name: 							string(STR_RT12);
+		toolbar_caption:				string(STR_RT12);
+		menu_text:						string(STR_RT12);
+		build_window_caption:			string(STR_RT12);
+		autoreplace_text:				string(STR_RT12);
+		new_engine_text:				string(STR_RT12);		
+		//sort_order: 			   11;
+		//construction_cost:         9;
+		//maintenance_cost:          6;
+		//speed_limit:                61 km/h;
+	}
+}
+
+item (FEAT_ROADTYPES, RT13, 12){
+	property{
+		label: 							"RT13";
+		//introduction_date:				date(1970,01,01);
+		name: 							string(STR_RT13);
+		toolbar_caption:				string(STR_RT13);
+		menu_text:						string(STR_RT13);
+		build_window_caption:			string(STR_RT13);
+		autoreplace_text:				string(STR_RT13);
+		new_engine_text:				string(STR_RT13);		
+		//sort_order: 			   12;
+		//construction_cost:         24;
+		//maintenance_cost:          11;	
+		//speed_limit:                61 km/h;
+	}
+}
+
+item (FEAT_ROADTYPES, RT14, 13){
+	property{
+		label: 							"RT14";
+		//introduction_date:				date(1970,01,01);
+		name: 							string(STR_RT14);
+		toolbar_caption:				string(STR_RT14);
+		menu_text:						string(STR_RT14);
+		build_window_caption:			string(STR_RT14);
+		autoreplace_text:				string(STR_RT14);
+		new_engine_text:				string(STR_RT14);		
+		//sort_order: 			   13;
+		//construction_cost:         15;
+		//maintenance_cost:          15;
+		//speed_limit:                101 km/h;
+	}
+}
+
+item (FEAT_ROADTYPES, RT15, 14){
+	property{
+		label: 							"RT15";
+		//introduction_date:				date(1970,01,01);
+		name: 							string(STR_RT15);
+		toolbar_caption:				string(STR_RT15);
+		menu_text:						string(STR_RT15);
+		build_window_caption:			string(STR_RT15);
+		autoreplace_text:				string(STR_RT15);
+		new_engine_text:				string(STR_RT15);
+		//sort_order: 			   14;
+		//construction_cost:         29;
+		//maintenance_cost:          38;
+		//speed_limit:                131 km/h;
+	}
+}
+item (FEAT_ROADTYPES, RT16, 15){
+	property{
+		label: 							"RT16";
+		//introduction_date:				date(1970,01,01);
+		name: 							string(STR_RT16);
+		toolbar_caption:				string(STR_RT16);
+		menu_text:						string(STR_RT16);
+		build_window_caption:			string(STR_RT16);
+		autoreplace_text:				string(STR_RT16);
+		new_engine_text:				string(STR_RT16);		
+		//sort_order: 			   15;
+		//construction_cost:          0;
+		//maintenance_cost:          38;	
+		//speed_limit:                131 km/h;
+	}
+}

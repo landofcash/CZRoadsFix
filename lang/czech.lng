@@ -1,0 +1,25 @@
+##grflangid 0x15
+##plural 10
+##gender m f n map mnp fp np
+##case nom gen dat acc voc loc ins big small
+
+STR_GRF_NAME		:CZTR Road set 
+STR_GRF_DESC		:Set of the Czech roads in 32bpp with extrazoom. Contains all roads features without bridges,vehicles and railroad crossings. This will be add in next Newgrf. More info in TT-forum in URL.
+STR_GRF_WEBSITE		:https://www.tt-forums.net/viewtopic.php?f=26&t=76558
+
+STR_RT01: [ - ] Polní/lesní cesta
+STR_ROAD: [ - ] Kočičí hlavy - město
+STR_ELRD: [EL] Kočičí hlavy - město
+STR_RT04: [ - ] Tovární silnice (Trucks only)
+STR_RT05: [ - ] 3. třída - město
+STR_RT06: [ - ] 3. třída - venkov
+STR_RT07: [ - ] 2. třída - město
+STR_RT08: [ - ] 2. třída - město (bez lamp)
+STR_RT09: [EL] 2. třída - město
+STR_RT10: [ - ] 2. třída - venkov
+STR_RT11: [ - ] 1. třída - město
+STR_RT12: [ - ] 1. třída - město (bez lamp)
+STR_RT13: [EL] 1. třída - město
+STR_RT14: [ - ] 1. třída - venkov
+STR_RT15: [ - ] Dálnice 1. pruh
+STR_RT16: [ - ] Dálnice 2. pruh (refit 0 CZK)
