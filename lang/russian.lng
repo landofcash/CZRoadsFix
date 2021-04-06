@@ -7,19 +7,19 @@ STR_GRF_NAME		:CZTR Road set Fix
 STR_GRF_DESC		:Перевод для CZTR_RoadSet
 STR_GRF_WEBSITE		:https://www.tt-forums.net/viewtopic.php?f=26&t=76558
 
-STR_RT01: [ - ] Polní/lesní cesta
-STR_ROAD: [ - ] Kočičí hlavy - Городская
-STR_ELRD: [EL] Kočičí hlavy - Городская
-STR_RT04: [ - ] Tovární silnice (Trucks only)
-STR_RT05: [ - ] 3. třída - Городская
-STR_RT06: [ - ] 3. třída - venkov
-STR_RT07: [ - ] 2. třída - Городская
-STR_RT08: [ - ] 2. třída - Городская (bez lamp)
-STR_RT09: [EL] 2. třída - Городская
-STR_RT10: [ - ] 2. třída - venkov
-STR_RT11: [ - ] 1. třída - Городская
-STR_RT12: [ - ] 1. třída - Городская (bez lamp)
-STR_RT13: [EL] 1. třída - Городская
-STR_RT14: [ - ] 1. třída - venkov
-STR_RT15: [ - ] Dálnice 1. pruh
-STR_RT16: [ - ] Dálnice 2. pruh (refit 0 CZK)
+STR_RT01: [ - ] Полевая грунтовка
+STR_ROAD: [ - ] Мостовая с тротуаром
+STR_ELRD: [ЭЛ] Мостовая с тротуаром
+STR_RT04: [ - ] (Только Грузовые) Дорога для грузовых
+STR_RT05: [ - ] Асфальт ул. с тротуаром
+STR_RT06: [ - ] Бульвар шоссе
+STR_RT07: [ - ] Асфальт 2-х полос ул.  с освещением
+STR_RT08: [ - ] Асфальт ул.
+STR_RT09: [ЭЛ] Асфальт 2-х полос ул. с освещением
+STR_RT10: [ - ] Асфальт шоссе
+STR_RT11: [ - ] Асфальт 2-х полос городская ул. с освещением 
+STR_RT12: [ - ] Асфальт 2-х полос городская ул. 
+STR_RT13: [ЭЛ] Асфальт 2-х полос городская ул. с освещением 
+STR_RT14: [ - ] Шоссе междугороднее
+STR_RT15: [ - ] Шоссе с левой обочиной
+STR_RT16: [ - ] Шоссе с правой обочиной

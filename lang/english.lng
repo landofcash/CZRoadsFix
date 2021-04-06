@@ -5,19 +5,19 @@ STR_GRF_NAME		:CZTR Road set Fix
 STR_GRF_DESC		:Translation for CZTR_RoadSet
 STR_GRF_WEBSITE		:https://www.tt-forums.net/viewtopic.php?f=26&t=76558
 
-STR_RT01: [ - ] Polní/lesní cesta
-STR_ROAD: [ - ] Kočičí hlavy - město
-STR_ELRD: [EL] Kočičí hlavy - město
-STR_RT04: [ - ] Tovární silnice (Trucks only)
-STR_RT05: [ - ] 3. třída - město
-STR_RT06: [ - ] 3. třída - venkov
-STR_RT07: [ - ] 2. třída - město
-STR_RT08: [ - ] 2. třída - město (bez lamp)
-STR_RT09: [EL] 2. třída - město
-STR_RT10: [ - ] 2. třída - venkov
-STR_RT11: [ - ] 1. třída - město
-STR_RT12: [ - ] 1. třída - město (bez lamp)
-STR_RT13: [EL] 1. třída - město
-STR_RT14: [ - ] 1. třída - venkov
-STR_RT15: [ - ] Dálnice 1. pruh
-STR_RT16: [ - ] Dálnice 2. pruh (refit 0 CZK)
+STR_RT01: [ - ] Rural dirt 
+STR_ROAD: [ - ] Paved with sidewalk  
+STR_ELRD: [EL] Paved with sidewalk 
+STR_RT04: [ - ] (Trucks only) Cobblestone freight 
+STR_RT05: [ - ] Street paved with sidewalk  
+STR_RT06: [ - ] Cobblestone highway 
+STR_RT07: [ - ] Asphalt 2-lane street with lighting  
+STR_RT08: [ - ] Paved street  
+STR_RT09: [EL] Asphalt 2-lane street 
+STR_RT10: [ - ] Paved highway 
+STR_RT11: [ - ] Urban asphalt 2-lane with lighting 
+STR_RT12: [ - ] Urban asphalt 2-lane
+STR_RT13: [EL] (EL) Urban asphalt 2-lane with lighting 
+STR_RT14: [ - ] Intercity highway 
+STR_RT15: [ - ] Highway with left bump 
+STR_RT16: [ - ] Highway with right bump 
